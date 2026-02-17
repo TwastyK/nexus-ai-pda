@@ -1,0 +1,20 @@
+# Скрываем ключи и локальные настройки
+.env
+app/promts/config.yaml
+app/core/config.py
+
+# Скрываем кэш и временные файлы Python
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+
+# Скрываем базу данных (чтобы каждый юзер строил свою)
+db/
+
+*.sqlite3
+data/vector_db/
+tests/vector_db/
+inbox/*.pdf
+inbox/*.docx
