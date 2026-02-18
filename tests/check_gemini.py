@@ -2,7 +2,7 @@ import os
 from google import genai
 
 # Прямо сюда вставь ключ для теста
-client = genai.Client(api_key="AIzaSyB0OuWx6H0YPH0rLZeIl-wfCHSkKs7a73c")
+client = genai.Client(api_key="YOUR GEMINI CODE")
 
 try:
     print("Список доступных тебе моделей:")

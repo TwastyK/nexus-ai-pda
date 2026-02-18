@@ -1,7 +1,7 @@
 import requests
 
 # ВСТАВЬ СЮДА СВОЙ КЛЮЧ ИЗ AI STUDIO (БЕЗ ПРОБЕЛОВ)
-API_KEY = "AIzaSyBd_RSVYT4QlpbRizXNO9SUecKfxNn9s6Q"
+API_KEY = "YOUR GEMINI CODE"
 
 # Ссылка версии v1 (самая стабильная)
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={API_KEY}"
